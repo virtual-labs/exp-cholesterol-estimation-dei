@@ -1,13 +1,363 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cholesterol Estimation Simulation</title>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<style>
+
+body{
+    margin:0;
+    padding:20px;
+    font-family:'Segoe UI',sans-serif;
+    background:linear-gradient(135deg,#dbeafe,#f0f9ff);
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+/* VIDEO */
+
+.video-card{
+    width:50%;
+    margin:20px auto 50px auto;
+    background:white;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.video-card h2{
+    text-align:center;
+    color:#1e40af;
+    margin-bottom:20px;
+}
+
+.video-card video{
+    width:100%;
+    border-radius:15px;
+    display:block;
+}
+
+/* HEADING */
+
+h1{
+    text-align:center;
+    color:#0f172a;
+    border-bottom:3px solid #2563eb;
+    padding-bottom:15px;
+    margin-bottom:40px;
+}
+
+/* INFO BOX */
+
+.station-info{
+    background:#f8fafc;
+    padding:15px 20px;
+    border-radius:12px;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:30px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+.station-info span{
+    font-size:18px;
+}
+
+/* FORM */
+
+.row{
+    display:flex;
+    gap:20px;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.left{
+    min-width:220px;
+    font-size:18px;
+    font-weight:600;
+}
+
+.right{
+    flex:1;
+}
+
+select{
+    width:420px;
+    padding:12px;
+    border-radius:10px;
+    border:2px solid #cbd5e1;
+    font-size:15px;
+}
+
+select:focus{
+    outline:none;
+    border-color:#2563eb;
+}
+
+button{
+    margin-top:15px;
+    padding:12px 30px;
+    border:none;
+    border-radius:10px;
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    font-weight:600;
+}
+
+button:hover{
+    transform:translateY(-2px);
+}
+
+/* RF SECTION */
+
+.rf-section{
+    display:flex;
+    gap:30px;
+    margin-top:40px;
+}
+
+.rf-box{
+    flex:1;
+    background:#f8fafc;
+    padding:25px;
+    border-radius:15px;
+    border-left:5px solid #2563eb;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+}
+
+.rf-box h3{
+    color:#1e40af;
+    margin-top:0;
+}
+
+.rf-box p{
+    font-size:18px;
+}
+
+.rf-box input{
+    width:150px;
+    padding:8px;
+    border-radius:8px;
+    border:2px solid #cbd5e1;
+    font-weight:bold;
+}
+
+/* NOTE */
+
+.note{
+    margin-top:40px;
+    text-align:center;
+    background:#dbeafe;
+    padding:15px;
+    border-radius:10px;
+    color:#1e40af;
+    font-weight:bold;
+}
+
+/* EXPLANATION */
+
+#explanation{
+    display:none;
+    margin-top:50px;
+    background:#eff6ff;
+    padding:30px;
+    border-radius:15px;
+    border-left:8px solid #2563eb;
+}
+
+#explanation h2{
+    color:#1e40af;
+    margin-top:0;
+}
+
+#expText{
+    line-height:1.8;
+    font-size:17px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.video-card{
+    width:50%;
+}
+
+.station-info{
+    flex-direction:column;
+    gap:10px;
+}
+
+.rf-section{
+    flex-direction:column;
+}
+
+select{
+    width:100%;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- VIDEO -->
+
+    <div class="video-card">
+        <h2>Experiment Animation</h2>
+
+        <video controls autoplay muted loop>
+            <source src="images/Final_Exp9.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+    </div>
+
+    <!-- SIMULATION -->
+
+    <h1>Simulation</h1>
+
+    <div class="station-info">
+        <span><b>Stationary Phase:</b> Silica Gel</span>
+        <span><b>Saturation Time:</b> 15 Minutes</span>
+    </div>
+
+    <div class="row">
+
+        <div class="left">
+            Solvent System:
+        </div>
+
+        <div class="right">
+
+            
+            <select name="one" id="one">
+<option>None</option>
+<option>n-Hexane: Diethyl ether: MeOH (5:2:0.5)</option>
+<option>n-Hexane: Diethyl ether: MeOH (5:2:1.5)</option>
+<option>n-Hexane: Diethyl ether: MeOH (5:2:2.5)</option>
+<option>n-Hexane: Diethyl ether: MeOH (5:2:0.3)</option>
+<option>n-Hexane: Diethyl ether: MeOH (5:2:0.1)</option>
+</select>
+
+            <br>
+
+            <button id="submitBtn">
+                Submit
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- RF -->
+
+    <div class="rf-section">
+
+        <div class="rf-box">
+
+            <h3>Optimum Rf</h3>
+
+            <p>Cholesterol : <b>0.37</b></p>
+
+        </div>
+
+        <div class="rf-box">
+
+            <h3>Simulation Rf</h3>
+
+            <p>
+                Cholesterol :
+                <input type="text" id="cholesterol" readonly>
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- NOTE -->
+
+    <div class="note">
+        RF VALUE IS DEPENDENT ON POLARITY OF SOLVENT SYSTEM
+    </div>
+
+    <!-- EXPLANATION -->
+
+    <div id="explanation">
+
+        <h2>EXPLANATION</h2>
+
+        <p id="expText"></p>
+
+    </div>
+
+</div>
+
+<script>
+
+const rfValues = {
+
+"n-Hexane: Diethyl ether: MeOH (5:2:0.5)": {
+rf:"0.37",
+explanation:"Rf value is dependent on the polarity of the solvent system. It increases with the rise in the polarity while shows decreasing trend with the lowering of the polarity of the solvent system. This fact is found to be true in present analysis. As the solvent system moves over the surface of the stationary phase, it transports the analyses over the particles of the stationary phase. If, a highly polar solvent is used, it will interact strongly with the molecules of stationary phase and will leave only few sites on the surface of stationary phase, free to bind with the analyses. The analyses will, therefore, move quickly over the stationary phase. Similarly, polar groups in the solvent can interact strongly with polar functionality in the analyses and prevent interaction of the analyses with the surface of the stationary phase."
+},
+
+"n-Hexane: Diethyl ether: MeOH (5:2:1.5)": {
+rf:"0.66",
+explanation:"Increasing the proportion of diethyl ether increases solvent polarity and causes cholesterol to migrate further on the TLC plate."
+},
+
+"n-Hexane: Diethyl ether: MeOH (5:2:2.5)": {
+rf:"0.71",
+explanation:"Rf value is dependent on the polarity of the solvent system. It increases with the rise in the polarity while shows decreasing trend with the lowering of the polarity of the solvent system. This fact is found to be true in present analysis. As the solvent system moves over the surface of the stationary phase, it transports the analyses over the particles of the stationary phase. If, a highly polar solvent is used, it will interact strongly with the molecules of stationary phase and will leave only few sites on the surface of stationary phase, free to bind with the analyses. The analyses will, therefore, move quickly over the stationary phase. Similarly, polar groups in the solvent can interact strongly with polar functionality in the analyses and prevent interaction of the analyses with the surface of the stationary phase."
+},
+
+"n-Hexane: Diethyl ether: MeOH (5:2:0.3)": {
+rf:"0.27",
+explanation:"Rf value is dependent on the polarity of the solvent system. It increases with the rise in the polarity while shows decreasing trend with the lowering of the polarity of the solvent system. This fact is found to be true in present analysis. As the solvent system moves over the surface of the stationary phase, it transports the analyses over the particles of the stationary phase. If, a highly polar solvent is used, it will interact strongly with the molecules of stationary phase and will leave only few sites on the surface of stationary phase, free to bind with the analyses. The analyses will, therefore, move quickly over the stationary phase. Similarly, polar groups in the solvent can interact strongly with polar functionality in the analyses and prevent interaction of the analyses with the surface of the stationary phase."
+},
+
+"n-Hexane: Diethyl ether: MeOH (5:2:0.1)": {
+rf:"0.24",
+explanation:"Rf value is dependent on the polarity of the solvent system. It increases with the rise in the polarity while shows decreasing trend with the lowering of the polarity of the solvent system. This fact is found to be true in present analysis. As the solvent system moves over the surface of the stationary phase, it transports the analyses over the particles of the stationary phase. If, a highly polar solvent is used, it will interact strongly with the molecules of stationary phase and will leave only few sites on the surface of stationary phase, free to bind with the analyses. The analyses will, therefore, move quickly over the stationary phase. Similarly, polar groups in the solvent can interact strongly with polar functionality in the analyses and prevent interaction of the analyses with the surface of the stationary phase."
+}
+
+};
+
+document.getElementById("submitBtn").addEventListener("click",function(){
+
+let solvent=document.getElementById("one").value;
+
+if(solvent==="None"){
+alert("Please select a solvent system.");
+return;
+}
+
+document.getElementById("cholesterol").value=rfValues[solvent].rf;
+
+document.getElementById("expText").innerHTML=
+rfValues[solvent].explanation;
+
+document.getElementById("explanation").style.display="block";
+
+});
+
+</script>
+
 </body>
 </html>
