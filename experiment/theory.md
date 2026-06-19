@@ -1,3 +1,22 @@
+### Reagents
+
+
+- Cholesterol Standard
+- Coconut oil
+- Soyabean oil
+- Peanut oil
+- Sunflower oil
+- Mustard oil
+- Taramira oil
+- Methanol
+- Toluene
+- Diethyl ether
+- n-Hexane
+ 
+
+
+All chemicals used in this study must be of analytical grade.
+
 ### Theory
 
 
