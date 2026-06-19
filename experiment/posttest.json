@@ -1,39 +1,55 @@
 {
   "version": 2.0,
   "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+  {
+    "question": "How is high cholesterol treated?",
+    "options": {
+      "A": "With diet changes",
+      "B": "With weight management and physical activity",
+      "C": "With medication",
+      "D": "All of the above"
     },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
+    "answer": "D"
+  },
+  {
+    "question": "Increase in levels of cholesterol results in",
+    "options": {
+      "A": "Hypocholesterolemia",
+      "B": "Cardiovascular disease",
+      "C": "Cerebral hemorrhage",
+      "D": "Atherosclerosis"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Which analytical technique is commonly used for cholesterol estimation in this experiment?",
+    "options": {
+      "A": "HPTLC",
+      "B": "PCR",
+      "C": "Western Blot",
+      "D": "Electrophoresis"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Cholesterol belongs to which class of biomolecules?",
+    "options": {
+      "A": "Proteins",
+      "B": "Carbohydrates",
+      "C": "Sterols",
+      "D": "Nucleic acids"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Excess cholesterol deposition in arteries leads to",
+    "options": {
+      "A": "Improved blood flow",
+      "B": "Plaque formation",
+      "C": "Increased oxygen supply",
+      "D": "Enhanced immunity"
+    },
+    "answer": "B"
+  }
+]
 }

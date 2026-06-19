@@ -1,39 +1,55 @@
 {
   "version": 2.0,
   "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+  {
+    "question": "Cholesterol is found in",
+    "options": {
+      "A": "Edible oil",
+      "B": "Cheese",
+      "C": "Beef",
+      "D": "All of the above"
     },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
+    "answer": "D"
+  },
+  {
+    "question": "Low-density lipoprotein (LDL) is called 'bad' cholesterol because:",
+    "options": {
+      "A": "It causes anemia",
+      "B": "It can cause blockage in the arteries",
+      "C": "It alters heart rhythm",
+      "D": "None of the above"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "High-density lipoprotein (HDL) is called 'good' cholesterol because:",
+    "options": {
+      "A": "It keeps cholesterol from building up in the lining of the arteries",
+      "B": "Body produces more of it",
+      "C": "It helps keep your blood from clotting",
+      "D": "None of the above"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Besides high cholesterol, which of these is a major risk factor for heart disease?",
+    "options": {
+      "A": "Cigarette smoking",
+      "B": "High blood pressure",
+      "C": "Family history of heart disease",
+      "D": "Age"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Which of the following is a desirable total cholesterol level?",
+    "options": {
+      "A": "Less than 200 mg/dL",
+      "B": "More than 200 mg/dL",
+      "C": "Less than 300 mg/dL",
+      "D": "None of the above"
+    },
+    "answer": "A"
+  }
+]
 }
