@@ -1,4 +1,4 @@
-## Procedure
+### Procedure
 
 
 - A stock solution of standard cholesterol was prepared by dissolving cholesterol(0.05 mg/ml) in toluene and sonicated for 10 minutes over an ultrasonic bath.
@@ -11,7 +11,7 @@
 - Plate was developed to a distance of 80 mm, in a Camag twin-trough chamber with mobile phase [n-Hexane: Diethyl ether: MeOH:: 5:2:0.5 (v/v)].
 - Plates were evaluated by densitometry at 200 nm with a Camag Scanner 3 for quantification.
 
-## Observation
+### Observation
 
 The chromatographic profile of the sample was simple, showing cholesterol as the main component. Peak of cholesterol was identified using the solvent system [n-Hexane: Diethyl ether: MeOH:: 5:2:0.5 (v/v)] with the Rf value of 0.37 ± 0.01 and there was no overlap with any other analyses of the sample at 200 nm (Fig.1).
 
