@@ -1,4 +1,4 @@
-### Reagents
+## Reagents
 
 
 - Cholesterol Standard
@@ -17,7 +17,7 @@
 
 All chemicals used in this study must be of analytical grade.
 
-### Theory
+## Theory
 
 
 Cholesterol is a waxy steroid metabolite present in the cell membranes. Cholesterol has been found in vegetable oils as major components, where it could make up to 5% of the total sterols. It is a health-promoting substance and critical component of cell membranes as well as the precursor to all steroid hormones, bile acids as well as vitamin D. Many vegetable oils are consumed directly or used as ingredients in food. Cholesterol plays a vital role in the physiological regulation of membrane fluidity, proper functioning of cells, intracellular transport and nerve conduction. The body needs cholesterol to make steroid hormones, including the adrenal gland hormones and sex hormones.
