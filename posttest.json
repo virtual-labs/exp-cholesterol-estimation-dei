@@ -1,0 +1,91 @@
+{
+  "version": 2.0,
+
+  "questions": [
+    {
+  
+      "question": "1. How is high cholesterol treated?",
+      "answers": {
+        "a": "With diet changes",
+        "b": "With weight management and physical activity",
+        "c": "With medication",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Incorrect. Diet changes alone are part of treatment, but not the complete approach.",
+        "b": "Incorrect. Weight management and exercise are part of treatment, but not the complete approach.",
+        "c": "Incorrect. Medication (statins) is part of treatment, but not the complete approach.",
+        "d": "Correct. High cholesterol is typically treated with a combination of diet changes, weight management, physical activity, and medication (if needed)."
+      },
+      "correctAnswer": "d"
+    },
+    {
+     
+      "question": "2. Increase in levels of cholesterol results-",
+      "answers": {
+        "a": "Hypocholesterolemia",
+        "b": "Cardiovascular disease",
+        "c": "Cerebral hemorrhage",
+        "d": "Atherosclerosis"
+      },
+      "explanations": {
+        "a": "Incorrect. Hypocholesterolemia is low cholesterol, not high.",
+        "b": "Incorrect. Cardiovascular disease is a result, but more specific is atherosclerosis.",
+        "c": "Incorrect. Cerebral hemorrhage is not directly caused by high cholesterol.",
+        "d": "Correct. Increased cholesterol levels result in atherosclerosis - the buildup of plaque in artery walls, which can lead to cardiovascular disease."
+      },
+      "correctAnswer": "d"
+    },
+    {
+      
+      "question": "3. What is the recommended LDL cholesterol level for most adults?",
+      "answers": {
+        "a": "Less than 100 mg/dL",
+        "b": "Less than 130 mg/dL",
+        "c": "Less than 160 mg/dL",
+        "d": "Less than 200 mg/dL"
+      },
+      "explanations": {
+        "a": "Correct. The optimal LDL level for most adults is less than 100 mg/dL. Levels above 160 mg/dL are considered high.",
+        "b": "Incorrect. Less than 130 mg/dL is near optimal/above optimal range.",
+        "c": "Incorrect. Less than 160 mg/dL is borderline high.",
+        "d": "Incorrect. Less than 200 mg/dL is the desirable total cholesterol level, not LDL."
+      },
+      "correctAnswer": "a"
+    },
+    {
+
+      "question": "4. Which type of fat is most likely to raise LDL cholesterol levels?",
+      "answers": {
+        "a": "Monounsaturated fat",
+        "b": "Polyunsaturated fat",
+        "c": "Saturated fat",
+        "d": "Trans fat"
+      },
+      "explanations": {
+        "a": "Incorrect. Monounsaturated fats (found in olive oil, avocado) can actually help lower LDL cholesterol.",
+        "b": "Incorrect. Polyunsaturated fats (found in fish, nuts) can help lower LDL cholesterol.",
+        "c": "Incorrect. Saturated fats raise LDL cholesterol, but trans fats are worse.",
+        "d": "Correct. Trans fats (partially hydrogenated oils) are the most harmful and raise LDL cholesterol while also lowering HDL cholesterol."
+      },
+      "correctAnswer": "d"
+    },
+    {
+     
+      "question": "5. Which of the following lifestyle changes can help increase HDL ('good') cholesterol?",
+      "answers": {
+        "a": "Regular physical exercise",
+        "b": "Quitting smoking",
+        "c": "Eating foods rich in omega-3 fatty acids",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Incorrect. Regular exercise is one way to increase HDL, but not the only one.",
+        "b": "Incorrect. Quitting smoking improves HDL levels, but not the only way.",
+        "c": "Incorrect. Omega-3 fatty acids help increase HDL, but not the only way.",
+        "d": "Correct. All of the above - regular physical exercise, quitting smoking, and eating foods rich in omega-3 fatty acids - can help increase HDL cholesterol levels."
+      },
+      "correctAnswer": "d"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "version": 2.0,
+ 
+  "questions": [
+    {
+      
+      "question": "1. Cholesterol is found in-",
+      "answers": {
+        "a": "Edible oil",
+        "b": "Cheese",
+        "c": "Beef",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Incorrect. Edible oils are plant-based and do not contain cholesterol (cholesterol is only found in animal products).",
+        "b": "Correct. Cheese is an animal product and contains cholesterol.",
+        "c": "Incorrect. Beef is an animal product and contains cholesterol, but not the only source.",
+        "d": "Incorrect because edible oil does not contain cholesterol."
+      },
+      "correctAnswer": "b"
+    },
+    {
+    
+      "question": "2. Low-density lipoprotein (LDL) is called 'bad' cholesterol because-",
+      "answers": {
+        "a": "It causes anemia",
+        "b": "It can cause blockage in the arteries",
+        "c": "It alters heart rhythm",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Incorrect. LDL does not cause anemia.",
+        "b": "Correct. LDL is called 'bad' cholesterol because it can build up in the walls of arteries, forming plaque that causes blockage (atherosclerosis) and increases risk of heart attack and stroke.",
+        "c": "Incorrect. LDL does not directly alter heart rhythm.",
+        "d": "Incorrect because (b) is correct."
+      },
+      "correctAnswer": "b"
+    },
+    {
+   
+      "question": "3. High-density lipoprotein (HDL) is called 'good' cholesterol because-",
+      "answers": {
+        "a": "It keeps cholesterol from building up in the lining of the arteries",
+        "b": "Body produces more of it",
+        "c": "It helps keep your blood from clotting",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Correct. HDL is called 'good' cholesterol because it carries cholesterol away from the arteries and back to the liver, preventing plaque buildup in artery walls.",
+        "b": "Incorrect. The body's production of HDL varies, but this is not the reason it is called 'good'.",
+        "c": "Incorrect. HDL does not prevent blood clotting.",
+        "d": "Incorrect because (a) is correct."
+      },
+      "correctAnswer": "a"
+    },
+    {
+   
+      "question": "4. Besides high cholesterol, which of these is a major risk factor for heart disease?",
+      "answers": {
+        "a": "Cigarette smoking",
+        "b": "High blood pressure",
+        "c": "Family history of heart disease",
+        "d": "Age"
+      },
+      "explanations": {
+        "a": "Incorrect. Cigarette smoking is a risk factor, but not the only one.",
+        "b": "Incorrect. High blood pressure is a risk factor, but not the only one.",
+        "c": "Incorrect. Family history is a risk factor, but not the only one.",
+        "d": "Correct. All of the above (cigarette smoking, high blood pressure, family history, and age) are major risk factors for heart disease."
+      },
+      "correctAnswer": "d"
+    },
+    {
+
+      "question": "5. Which of the following is a desirable total cholesterol level?",
+      "answers": {
+        "a": "Less than 200 mg/dL",
+        "b": "More than 200 mg/dL",
+        "c": "Less than 300 mg/dL",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Correct. A desirable total cholesterol level is less than 200 mg/dL. Levels between 200-239 mg/dL are borderline high, and 240 mg/dL and above is high.",
+        "b": "Incorrect. More than 200 mg/dL is considered borderline high or high.",
+        "c": "Incorrect. Less than 300 mg/dL is not the standard desirable level.",
+        "d": "Incorrect because (a) is correct."
+      },
+      "correctAnswer": "a"
+    }
+  ]
+}
