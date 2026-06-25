@@ -4,7 +4,7 @@
   "questions": [
     {
       
-      "question": "1. Cholesterol is found in",
+      "question": "1. Cholesterol is found in-",
       "answers": {
         "a": "Edible oil",
         "b": "Cheese",
@@ -21,7 +21,7 @@
     },
     {
     
-      "question": "2. Low-density lipoprotein (LDL) is called 'bad' cholesterol because:",
+      "question": "2. Low-density lipoprotein (LDL) is called 'bad' cholesterol because-",
       "answers": {
         "a": "It causes anemia",
         "b": "It can cause blockage in the arteries",
@@ -38,7 +38,7 @@
     },
     {
    
-      "question": "3. High-density lipoprotein (HDL) is called 'good' cholesterol because:",
+      "question": "3. High-density lipoprotein (HDL) is called 'good' cholesterol because-",
       "answers": {
         "a": "It keeps cholesterol from building up in the lining of the arteries",
         "b": "Body produces more of it",

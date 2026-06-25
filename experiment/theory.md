@@ -25,7 +25,7 @@ Cholesterol is a waxy steroid metabolite present in the cell membranes. Choleste
 
 
 <div align="center">
-  <img src="images/theory3.jpg" alt="Theory Image" width="600">
+  <img src="images/theory3.jpg" alt="Theory Image" width="200">
 </div>
 
 
